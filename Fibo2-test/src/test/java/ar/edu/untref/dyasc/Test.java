@@ -3,12 +3,12 @@ package ar.edu.untref.dyasc;
 import static org.junit.Assert.*;
 
 public class Test{
-	//pr
+	
 	@org.junit.Test
 	public void generateSuccessionVerticalAndDirect() {
 		FormatSuccession succession = new FormatSuccession();
 		String resultSuccession = succession.generateSuccessionWithSpecifications("vd",5);
-		assertEquals("fibo<5>: \n0\n1\n1\n2\n3\n", resultSuccession);
+		assertEquals("ibo<5>: \n0\n1\n1\n2\n3\n", resultSuccession);
 	}
 	
 	@org.junit.Test
